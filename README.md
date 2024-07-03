@@ -3,6 +3,7 @@
 ## General Objective
 
 - Develop a simple project using Flutter framework.
+- Know the main structures of Dart language.
 
 ## Project Overview (PT/BR)
 
@@ -69,4 +70,3 @@ brew install --cask flutter
 `
 flutter doctor
 `
-
