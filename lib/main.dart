@@ -11,29 +11,29 @@ class _PerguntaAppState extends State<PerguntaApp> {
     {
       'texto': 'Quantos quadrados perfeitos existem entre 0 e 100?',
       'respostas': [
-        {'texto': '7', 'pontuacao': 2},
-        {'texto': '6', 'pontuacao': 1},
-        {'texto': '9', 'pontuacao': 3},
-        {'texto': '10', 'pontuacao': 4},
+        {'texto': '7', 'pontuacao': 0},
+        {'texto': '6', 'pontuacao': 0},
+        {'texto': '9', 'pontuacao': 0},
+        {'texto': '10', 'pontuacao': 1},
       ],
     },
     {
       'texto': 'Quantos divisores tem o número 2800?',
       'respostas': [
-        {'texto': '25 divisores', 'pontuacao': 1},
-        {'texto': '29 divisores', 'pontuacao': 3},
-        {'texto': '27 divisores', 'pontuacao': 2},
-        {'texto': '30 divisores', 'pontuacao': 4},
+        {'texto': '25 divisores', 'pontuacao': 0},
+        {'texto': '29 divisores', 'pontuacao': 0},
+        {'texto': '27 divisores', 'pontuacao': 0},
+        {'texto': '30 divisores', 'pontuacao': 1},
       ],
     },
     {
       'texto':
           'A soma do dobro de três números consecutivos é igual a 42. Qual o valor do produto entre o menor número e o maior número?',
       'respostas': [
-        {'texto': '43', 'pontuacao': 2},
-        {'texto': '56', 'pontuacao': 3},
-        {'texto': '42', 'pontuacao': 1},
-        {'texto': '48', 'pontuacao': 4},
+        {'texto': '43', 'pontuacao': 0},
+        {'texto': '56', 'pontuacao': 0},
+        {'texto': '42', 'pontuacao': 0},
+        {'texto': '48', 'pontuacao': 1},
       ],
     },
   ];

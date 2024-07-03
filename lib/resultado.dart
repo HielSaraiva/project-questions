@@ -8,14 +8,14 @@ class Resultado extends StatelessWidget {
       {super.key});
 
   String get fraseResultado {
-    if (pontuacao <= 3) {
-      return 'Estude mais!';
-    } else if (pontuacao <= 6) {
-      return 'Mediano!';
-    } else if (pontuacao <= 9) {
-      return 'Muito bem!!';
+    if (pontuacao == 0) {
+      return 'Estude mais! 😓 0/3';
+    } else if (pontuacao == 1) {
+      return 'Mediano! 😕 1/3';
+    } else if (pontuacao == 2) {
+      return 'Muito bem!! 👏 2/3';
     } else {
-      return 'Excelente!!!';
+      return 'Excelente!!! 🥳 3/3';
     }
   }
 
