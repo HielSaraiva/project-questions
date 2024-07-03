@@ -45,9 +45,9 @@
 
 - Copy that to your terminal:
 
-`
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-`
+
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 
 ### Xcode
 
@@ -61,12 +61,12 @@
 
 - Copy that to your terminal:
 
-`
-brew install --cask flutter
-`
+
+      brew install --cask flutter
+
 
 - Run this command and see if there is something wrong:
 
-`
-flutter doctor
-`
+
+      flutter doctor
+
